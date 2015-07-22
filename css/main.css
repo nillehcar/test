@@ -1,0 +1,128 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'DIN', Helvetica, sans-serif;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.home {
+	text-align: center;
+}
+
+.page-head {
+	width: 900px;
+	height: 400px;
+	background-image: url("http://placehold.it/900x400");
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+.pg-title {
+	text-align: center;
+	padding-top: 5em;
+	font-size: 20px;
+	color: white;
+}
+
+.btn {
+	color: white;
+	border: 2px solid white;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding: .75em 1em;
+	transition: all 350ms ease;
+}
+
+.btn:hover {
+	border: 2px solid #FDB823;
+	background-color: #FDB823;
+}
+
+.text-wrapper {
+	margin: 0 auto;
+	width: 80%;
+	color: white;
+	padding: 2em 0;
+}
+
+.subhead {
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+/* grid */
+
+.grid {
+  overflow: hidden;
+  clear: both;
+  padding: 1rem 0;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.unit {
+  float: left;
+}
+
+.gutter {
+  padding: 1rem;
+}
+
+.unit-1-2-short,
+.unit-1-2-long {
+  width: 49%;
+	background-color: #ccc;
+}
+
+.unit-1-2-short {
+	height: 300px;
+	margin-right: .5em;
+}
+
+.unit-1-2-long {
+	height: 650px;
+	margin-left: .5em;
+}
+
+.unit-2-2-short,
+.unit-2-2-long {
+	background-color: #ccc;
+}
+
+.unit-2-2-short {
+	height: 300px;
+	position: absolute;
+	width: 441px;
+	top: 1112px;
+	right: 263px;
+}
+
+.unit-2-2-long {
+	height: 650px;
+	position: absolute;
+	width: 441px;
+	top: 762px;
+}
