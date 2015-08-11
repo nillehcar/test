@@ -26,6 +26,7 @@ body {
 }
 
 .home {
+	padding-top: 4em;
 	text-align: center;
 }
 
@@ -50,9 +51,9 @@ body {
 	color: white;
 	border: 2px solid white;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 13px;
 	letter-spacing: 2px;
-	padding: .75em 1em;
+	padding: .6em 1em;
 	transition: all 350ms ease;
 }
 
@@ -63,14 +64,84 @@ body {
 
 .text-wrapper {
 	margin: 0 auto;
-	width: 80%;
+	width: 70%;
 	color: white;
 	padding: 2em 0;
 }
 
 .subhead {
-	font-size: 25px;
+	font-size: 23px;
 	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+nav {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	border-bottom: 1px solid black;
+	clear: both;
+	z-index: 1000;
+	padding: .5em 0;
+}
+
+.logo {
+	float: left;
+	margin-left: 5em;
+}
+
+.nav-list {
+	float: right;
+	margin-right: 5em;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 1.75em;
+	font-weight: 100;
+}
+
+.fa-cube, .fa-2x {
+	color: #354B5E;
+}
+
+.fa {
+	margin-top: 1em;
+}
+
+.fa-key {
+	color: #ccc;
+}
+
+.text-wrapper-b {
+	color: black;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.section-head {
+	color: #475F77;
+	font-size: 23px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	padding-top: 2em;
+}
+
+.feat {
+	font-size: 16px;
+	letter-spacing: 1px;
+
+}
+
+td {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+	padding-left: .5em;
+
 }
 
 /* grid */
@@ -91,10 +162,19 @@ body {
   padding: 1rem;
 }
 
+.unit-1 {
+	width: 100%;
+	background-color: #ccc;
+	height: 330px;
+	position: relative;
+	top: 330px;
+	padding: 330px;
+}
+
 .unit-1-2-short,
 .unit-1-2-long {
   width: 49%;
-	background-color: #ccc;
+	background-color: #475F77;
 }
 
 .unit-1-2-short {
@@ -109,14 +189,14 @@ body {
 
 .unit-2-2-short,
 .unit-2-2-long {
-	background-color: #ccc;
+	background-color: #475F77;
 }
 
 .unit-2-2-short {
 	height: 300px;
 	position: absolute;
 	width: 441px;
-	top: 1112px;
+	top: 1175px;
 	right: 263px;
 }
 
@@ -124,5 +204,24 @@ body {
 	height: 650px;
 	position: absolute;
 	width: 441px;
-	top: 762px;
+	top: 826px;
+}
+
+.unit-square {
+	width: 49%;
+	background-color: #475F77;
+	height: 400px;
+	margin-right: .5em;
+}
+
+.unit-square2 {
+	width: 49%;
+	background-color: #475F77;
+	height: 400px;
+	margin-left: .5em;
+}
+
+.unit-prod {
+	width: 49%;
+	height: 250px;
 }
